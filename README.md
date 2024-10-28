@@ -12,7 +12,7 @@
 
 ---
 
-> _Video Demo Application:
+> _Video Demo Application: https://www.youtube.com/watch?v=cjC5lP9HwEA
 > _Figma: 
 > _Pitch
 
@@ -34,7 +34,7 @@ Due to the complexity of the block system, this version is not the final version
 2. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/bellujrb/hackathon_satshackk/frontend
+    git clone https://github.com/bellujrb/scriptlab/frontend
     ```
 
 3. **Install dependencies**
@@ -55,7 +55,7 @@ Due to the complexity of the block system, this version is not the final version
 ## 📂 Project file tree
 
 ```
-hackathon_satshack
+scriptlab
 ├── frontend
 │   └── ...
 ├── README.MD
@@ -63,7 +63,7 @@ hackathon_satshack
 ```
 ---
 
-#### `hackathon_satshack`
+#### `scriptlab`
 
 - `front-end`
     - Application Frontend
