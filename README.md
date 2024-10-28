@@ -34,7 +34,7 @@ Due to the complexity of the block system, this version is not the final version
 2. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/bellujrb/scriptlab/frontend
+    git clone https://github.com/bellujrb/scriptlab/tree/main/frontend
     ```
 
 3. **Install dependencies**
