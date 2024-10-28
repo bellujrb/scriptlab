@@ -1,0 +1,58 @@
+.NodeInnerWrapper {
+  width: 350px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  border-radius: 12px; 
+  background-color: #FFFFFF; 
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+
+
+  &[aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+
+  &:not([aria-disabled="true"]):hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  }
+
+  &:not([aria-disabled="true"])[data-selected="true"] {
+    box-shadow: inset 0px 0px 0px 1px currentColor, 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  }
+
+  > .closeIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    > svg {
+      color: #f7931a; 
+    }
+  }
+}
+
+.NodeIcon {
+  font-size: 24px; 
+  padding: 4px;
+  color: #f7931a; 
+}
+
+.NodeTitle {
+  margin-top: 10px;
+  color: #f7931a; 
+  font-size: 16px;
+  font-weight: 400; 
+  background-color: #E6E8EB; 
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.NodeDesc {
+  color: #4A4A4A; 
+  font-size: 14px;
+  margin-top: 10px; 
+}
+

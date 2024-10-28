@@ -1,0 +1,63 @@
+.AutomationCanvas {
+    --edges-stroke-color: green;
+    width: 90vw;
+    height: 90vh;
+    background-color: var(--color-base100);
+}
+
+.react-flow__edge-path {
+    stroke: green;
+}
+
+.Controls {
+    top: 10px;
+    bottom: auto;
+}
+
+.reactflow-wrapper {
+    height: 90vh;
+    width: 90vw;
+}
+
+.node-dropzone {
+    width: 24px; 
+    height: 24px;
+    border: 2px solid #f7931a; 
+    background-color: #FFFFFF; 
+    border-radius: 50%; 
+    color: #f7931a;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+.node-dropzone:hover {
+    color: white;
+    background-color: #f7931a; 
+    border-color: white; 
+}
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 450px;
+}
+
+.SidebarItem {
+    background-color: #f7931a;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.SidebarItem:hover {
+    background-color: rgb(153, 0, 255);
+    cursor: pointer;
+}
